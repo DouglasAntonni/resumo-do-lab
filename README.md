@@ -55,3 +55,37 @@ Os **SLAs** (Acordos de Nível de Serviço) no Azure definem os compromissos da 
 
 Os SLAs no Azure fornecem previsibilidade e garantias aos clientes, permitindo que eles planejem a confiabilidade e a resiliência de suas soluções em nuvem.
 
+# Tipos de Serviço de Nuvem na Azure
+
+A Azure oferece diferentes **modelos de serviço em nuvem**, cada um projetado para atender a diferentes necessidades de negócios e níveis de gerenciamento de recursos. Esses serviços são classificados em três principais categorias:
+
+## 1. **IaaS (Infrastructure as a Service)**
+- **Descrição**: Oferece infraestrutura de TI sob demanda, como servidores virtuais, redes, e armazenamento. O cliente gerencia o sistema operacional, aplicativos e dados.
+- **Exemplos de uso**: Criação de máquinas virtuais, armazenamento de dados em discos gerenciados, redes virtuais.
+- **Responsabilidade do cliente**: Gerenciamento de SO, aplicativos, tempo de execução e middleware.
+- **Exemplos de serviços Azure**: Azure Virtual Machines, Azure Storage.
+
+## 2. **PaaS (Platform as a Service)**
+- **Descrição**: Fornece uma plataforma completa para desenvolvimento e implantação de aplicativos, sem a necessidade de gerenciar a infraestrutura subjacente.
+- **Exemplos de uso**: Desenvolvimento de aplicativos web, APIs, e serviços móveis.
+- **Responsabilidade do cliente**: Desenvolvimento e gerenciamento de aplicativos, enquanto o provedor gerencia a infraestrutura, o SO e as atualizações.
+- **Exemplos de serviços Azure**: Azure App Service, Azure Functions.
+
+## 3. **SaaS (Software as a Service)**
+- **Descrição**: Oferece aplicativos prontos para uso que são gerenciados pelo provedor de nuvem, acessíveis via navegador ou APIs.
+- **Exemplos de uso**: Aplicativos como e-mail, CRM, e ferramentas de colaboração.
+- **Responsabilidade do cliente**: Somente o uso do software, sem precisar se preocupar com a infraestrutura ou manutenção.
+- **Exemplos de serviços Azure**: Microsoft 365, Dynamics 365.
+
+## Comparação entre os Modelos:
+| Modelo   | Gerenciado pelo Cliente                   | Gerenciado pela Azure                         |
+|----------|-------------------------------------------|-----------------------------------------------|
+| **IaaS** | Aplicações, SO, dados, tempo de execução   | Infraestrutura, rede, hardware                |
+| **PaaS** | Aplicações, dados                         | Sistema operacional, rede, infraestrutura     |
+| **SaaS** | Apenas o uso da aplicação                 | Todo o resto (aplicação, infraestrutura, etc) |
+
+---
+
+A escolha do tipo de serviço depende das necessidades do projeto e do nível de controle que o cliente deseja ter sobre o ambiente. IaaS oferece mais controle, enquanto SaaS fornece soluções prontas e gerenciadas.
+
+
